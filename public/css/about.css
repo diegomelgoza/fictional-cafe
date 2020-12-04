@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+
+html {
+  height: 100%;
+  background-color: black;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("css/images/cafe.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+section {
+  color: rgb(221, 213, 213);
+}
+
+footer .container {
+    margin: 10px;
+}
+
+.about {
+  width: 40rem;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.navbar-brand i {
+  padding-left: 10px;
+}
+
+i {
+  color: gray;
+}
+
+i:hover {
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    footer {
+        margin-top: 150px;
+    }
+}
